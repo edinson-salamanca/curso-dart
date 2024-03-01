@@ -39,4 +39,12 @@ main() {
   if (isActive) {
     print('verdadero');
   }
+
+  // ==== Lists
+
+  List<String> villanos = [
+    'Lex',
+    'Red Skull',
+    'Doom',
+  ];
 }
