@@ -30,4 +30,13 @@ main() {
   0'connor
 
   ''';
+
+  // ====== Booleans
+
+  bool isActive = true;
+  bool isNotActive = !isActive;
+
+  if (isActive) {
+    print('verdadero');
+  }
 }
