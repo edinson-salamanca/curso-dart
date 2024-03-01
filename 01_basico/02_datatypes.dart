@@ -14,4 +14,20 @@ main() {
   int? d;
 
   print(d);
+
+  // =====String
+
+  String nombre = 'Tony';
+  String nombre3 = "0'Connor";
+  String apellido = 'Stark';
+
+  String nombreCompleto = '$nombre $apellido';
+
+  String multilinea = '''
+  Hola Mundo
+  ¿Cómo estás ?
+  $nombre
+  0'connor
+
+  ''';
 }
