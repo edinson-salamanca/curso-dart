@@ -47,4 +47,12 @@ main() {
     'Red Skull',
     'Doom',
   ];
+  villanos.add('Duende Verde');
+  var villanosSet = villanos.toSet();
+
+  // ====== Sets. Los elementos no se duplican
+
+  Set<String> villanos2 = {'Lex', 'Red Skull', 'Doom'};
+
+  villanos2.add('Duende Verde');
 }
