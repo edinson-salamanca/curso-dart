@@ -12,7 +12,8 @@ void main(List<String> args) {
   String resp = c > 25 ? 'C es mayor a 25' : 'C es menor a 25';
 
   int d = b ?? a;
-
+  String f = false ? 'C es nulo' : 'C no es la respuesta correcta';
+  print(f);
   /**
    * > Mayor que
    * < Menor que
