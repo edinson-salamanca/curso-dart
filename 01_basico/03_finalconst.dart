@@ -4,7 +4,7 @@ void main(List<String> args) {
   //final es más liviana en memoria
   final b = 10;
 
-  //
+  // constante en memoria
   const c = 10;
 
   final personasFinal = ['Juan', 'Pedro', 'Fernando'];
@@ -12,4 +12,8 @@ void main(List<String> args) {
 
   personasFinal.add('Maria');
   //personasConst.add('Maria');
+
+  late final double x;
+  x = 10;
+  print(x);
 }
