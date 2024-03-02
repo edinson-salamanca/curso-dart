@@ -55,4 +55,20 @@ main() {
   Set<String> villanos2 = {'Lex', 'Red Skull', 'Doom'};
 
   villanos2.add('Duende Verde');
+
+  // ===== Maps    Diccionarios / Objetos literales
+
+  Map<String, dynamic> ironMan = {
+    'nombre': 'Tony Stark ',
+    'poder': 'Inteligencia y el dinero',
+    'nivel': 9000,
+  };
+
+  print(ironMan['nombre']);
+
+  Map<String, dynamic> capitan = new Map();
+
+  capitan.addAll(ironMan);
+
+  print(capitan);
 }
