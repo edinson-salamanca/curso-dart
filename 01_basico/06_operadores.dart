@@ -13,5 +13,20 @@ void main(List<String> args) {
 
   int d = b ?? a;
 
-  print(d);
+  /**
+   * > Mayor que
+   * < Menor que
+   * >= Mayor o igual que
+   * <= Menor o igual que
+   * 
+   * == Revisa si dos objetos son iguales
+   * != Revisa si dos objetos son diferente
+   * 
+   */
+
+  //Operador de tipo
+
+  int i = 10;
+  String j = 'Juan';
+  print(i is int);
 }
